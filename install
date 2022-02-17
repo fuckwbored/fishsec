@@ -1,0 +1,31 @@
+import os
+from colorama import init
+from colorama import Fore, Back, Style
+import colorama
+init(autoreset=True)
+
+os.system("clear")
+ruba = """
+[bug]     /"*._         _
+      .-*'`    `*-.._.-'/
+    < * ))     ,       ( 
+      `*-._`._(__.--*"`.\
+
+
+"""
+
+print(ruba)
+os.system("pip3 install colorama")
+os.system("clear")
+print(ruba)
+os.system("pip3 install pyshorteners")
+os.system("clear")
+print(Fore.GREEN + """                                                           
+   _|_|_|  _|    _|    _|_|_|    _|_|      _|_|_|    _|_|_|  
+ _|_|      _|    _|  _|        _|_|_|_|  _|_|      _|_|      
+     _|_|  _|    _|  _|        _|            _|_|      _|_|  
+ _|_|_|      _|_|_|    _|_|_|    _|_|_|  _|_|_|    _|_|_|    
+                                                                                                                          
+""")
+
+print("Установка прошла успешно! \nТеперь для запуска напишите python3 fishsec.py")
